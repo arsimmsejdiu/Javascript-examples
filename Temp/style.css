@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+    background: lightcoral;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.paragraph {
+    background: lightblue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
