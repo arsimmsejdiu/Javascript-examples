@@ -11,7 +11,7 @@ const daysInYear = 365;
 
 convert.addEventListener("click", function() {
     let numberOfYears = document.getElementById("numberOfYears").value ;
-    // Votre code ici
+    // Your code ici
 
     //Days in year
     let numberOfDays = numberOfYears * daysInYear ;
@@ -32,5 +32,5 @@ convert.addEventListener("click", function() {
     let numberOfSeconds = numberOfMinutes * secondsInMinute;
     resultSeconds.textContent = numberOfYears + " years is " + numberOfSeconds + " seconds";
     console.log(resultSeconds.textContent = numberOfYears + " years is " + numberOfSeconds + " seconds");
-    
+
 });
